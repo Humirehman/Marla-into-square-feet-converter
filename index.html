@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
- 
-        
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     
 </head>
-   
-    <title>Marla to  Ft^2  Converter</title>
-    <center><body class="body">
+<link rel="stylesheet" href="style.css">
+<title>Marla to square feet converter</title>
+<center><body class="body">
     <div class="bodyleft">
-       
+
+    </div>
     <div class="bodyright">
+
+<body>
+    <centre>
+        <h1>Marla into Square feet Converter</h1>
+    </centre>
+    <form onsubmit="convertValues(event)">
+
+        <label for="Marla">Value in marla:</label>
+        <input class="placeholder" type="number" id="marla" placeholder="Enter marla" step="0.0001" required>
+        <br>
+        <button type="submit">convert</button>
     
 
-    <form>
-        <label for="marla">VALUE IN MARLA:</label>
-        <input class="placeholder" type="number" id="marla" placeholder="Enter Marla" step="0.00001" required>
-        <br>
-        <br>
-        <input class="button" type="button" value="Convert" onclick="convertMarlaToSquareFeet()">
+
+
+
+
+
     </form>
-    <p id="result">RESULT</p>
+    <p id="result">Result</p>
 </div>
 </center>
-
     <script src="script.mjs"></script>
-
-
 </body>
+
 </html>
